@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <title>Sneak - Simple Portfolio</title>
+
+</head>
+
+<body>
+    <header>
+        <figure class="header--logo" id="header--logo">
+            <img src="./images/Logo.png" alt="Sneak Logo">
+        </figure>
+
+        <a href="#" class="toggle_menu" onclick="displayMenu(); return false;"><img src="./images/navigation_icons/menu.svg" alt="Menu options">
+        </a>
+
+        <nav class="navbar" id="header__navbar">
+            <ul>
+                <li><a href="#All" className="nav__options">All</a></li>
+                <li><a href="#Branding" className="nav__options">Branding</a></li>
+                <li><a href="#Web" className="nav__options">Web</a></li>
+                <li><a href="#Photography" className="nav__options">Photography</a></li>
+                <li><a href="#App" className="nav__options">App</a></li>
+                <li>
+                    <a href="#Search" className="nav__options"><img src="./images/navigation_icons/SearchIcon.png" alt="Search Icon" class="header__navbar--search"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main__hero" alt="Main">
+            <h1>EXPLORE BEYOND HORIZON</h1>
+            <h2>Magna mundi referrentur quo, no rebum dignissim qui. <br> Per quodsi accusata id, agam labores.</h2>
+            <button class="main__button">VIEW OUR WORK</button>
+        </section>
+
+        <section class="main__display--icons" id="main__display--icons">
+            <a href=""><img src="./images/navigation_icons/BlockIcon.png" alt="Display portfolio by blocks of images"></a>
+            <a href=""><img src="./images/navigation_icons/ColumnIcon.png" alt="Display portfolio by columns"></a>
+        </section>
+
+        <a href="#" class="toggle_menu--main" onclick="displayMenu2(); return false;"><img src="./images/navigation_icons/menu.svg" alt="Menu options">
+        </a>
+
+        <nav class="navbar" id="main_navbar">
+            <ul>
+                <li><a href="#All" className="nav__options">All</a></li>
+                <li><a href="#Branding" className="nav__options">Branding</a></li>
+                <li><a href="#Web" className="nav__options">Web</a></li>
+                <li><a href="#Photography" className="nav__options">Photography</a></li>
+                <li><a href="#App" className="nav__options">App</a></li>
+            </ul>
+        </nav>
+
+        <section class="main__portfolio">
+            <article class="grid" id="main__portfolio__mosaic">
+            </article>
+            <button class="main__portfolio--button">Show Me More</button>
+        </section>
+    </main>
+
+
+    <footer>
+        <p> 2016 - <span class="footer__text--brand">Sneak</span> All Rights Reserved</p>
+        <div class="footer__social--icons">
+            <a href="https://www.facebook.com/"><img src="./images/social_icons/Facebook.png" alt="Facebook icon"></a>
+            <a href="https://www.twitter.com/"><img src="./images/social_icons/Twitter.png" alt="Twitter icon"></a>
+            <a href="https://www.dribbble.com/"><img src="./images/social_icons/Dribble.png" alt="Dribbble icon"></a>
+            <a href="https://www.google.com/"><img src="./images/social_icons/Google.png" alt="Google Plus icon"></a>
+            <a href="https://www.youtube.com/"><img src="./images/social_icons/Youtube.png" alt="YouTube icon"></a>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
